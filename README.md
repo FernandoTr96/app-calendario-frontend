@@ -5,5 +5,6 @@ Aplicacion de calendario para agendar eventos
 + React 17
 + Material ui
 + Redux
++ React router
 + moment js
 + toastify js
