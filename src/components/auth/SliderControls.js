@@ -13,7 +13,7 @@ export const SliderControls = () => {
                     LOGIN
                 </Box>
                 <Box component='label' htmlFor='tabRegister' className='tabRegister'>
-                    REGISTER
+                    REGISTRO
                 </Box>
                 <Box component='span' className='bar'></Box>
             </Box>

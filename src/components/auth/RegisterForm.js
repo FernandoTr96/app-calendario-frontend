@@ -96,7 +96,7 @@ export const RegisterForm = () => {
 
 
             <Button type='submit' variant='gradient-citrus' fullWidth>
-                Registrarse
+                crear cuenta
             </Button>
 
         </Box>

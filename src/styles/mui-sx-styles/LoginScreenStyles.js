@@ -2,12 +2,18 @@ const styles = {
     mainContainer:{
         width: '100%',
         height: '100vh',
-        backgroundImage: 'url("https://cdn.pixabay.com/photo/2021/10/06/17/13/mountains-6686286_960_720.jpg")',
+        backgroundImage: {
+            xs: 'none',
+            md: 'url("https://cdn.pixabay.com/photo/2021/10/06/17/13/mountains-6686286_960_720.jpg")'
+        },
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: {
+            xs: 'flex-start',
+            md: 'center'
+        }
     },
     authContainer:{
         width: {
@@ -16,8 +22,7 @@ const styles = {
             lg: '35%'
         },
         height: {
-            xs: '100vh',
-            md: 'auto'
+            xs: 'auto'
         },
         backgroundColor: '#fff',
         overflow: 'hidden',

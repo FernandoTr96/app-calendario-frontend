@@ -82,7 +82,7 @@ export const LoginForm = () => {
             />
 
             <Button type='submit' variant='gradient-citrus' fullWidth>
-                iniciar sesion
+                iniciar sesión
             </Button>
 
         </Box>
